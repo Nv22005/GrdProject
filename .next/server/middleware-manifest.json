@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "middleware": {},
+  "functions": {
+    "/api/[[...route]]/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/[[...route]]/route.js"
+      ],
+      "name": "app/api/[[...route]]/route",
+      "page": "/api/[[...route]]/route",
+      "matchers": [
+        {
+          "regexp": "^/api(?:/(?<route>.+?))?$",
+          "originalSource": "/api/[[...route]]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "OUMnA0LKxH_692LTUA53t",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "GAHogQ6wLg7s1YoWlAxI7DzfYjltkh1jWzmf9rham9Y=",
+        "__NEXT_PREVIEW_MODE_ID": "9cbb6df350ef576f115745a78d6fb189",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "066ba9d3f9bc5d7eac0cc2aed453bb7495bc44c3c47ab15d4438f2cbb20613a3",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "44c41a2958ffc179b3a67aa60225074c411eb9e72c30142d8b149a095d6fc2c8"
+      }
+    }
+  },
+  "sortedMiddleware": []
+}
