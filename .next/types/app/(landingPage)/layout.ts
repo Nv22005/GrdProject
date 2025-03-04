@@ -1,4 +1,4 @@
-// File: C:\Users\nv22005\Desktop\AI-Resumes-Builder\app\(landingPage)\layout.tsx
+// File: /workspaces/GrdProject/app/(landingPage)/layout.tsx
 import * as entry from '../../../../app/(landingPage)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

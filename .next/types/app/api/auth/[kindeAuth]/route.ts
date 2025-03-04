@@ -1,4 +1,4 @@
-// File: C:\Users\nv22005\Desktop\AI-Resumes-Builder\app\api\auth\[kindeAuth]\route.ts
+// File: /workspaces/GrdProject/app/api/auth/[kindeAuth]/route.ts
 import * as entry from '../../../../../../app/api/auth/[kindeAuth]/route.js'
 import type { NextRequest } from 'next/server.js'
 

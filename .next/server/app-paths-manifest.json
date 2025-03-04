@@ -1,10 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/api/auth/[kindeAuth]/route": "app/api/auth/[kindeAuth]/route.js",
-  "/(public)/preview/[documentId]/resume/page": "app/(public)/preview/[documentId]/resume/page.js",
-  "/(landingPage)/page": "app/(landingPage)/page.js",
-  "/(home)/dashboard/page": "app/(home)/dashboard/page.js",
-  "/(home)/dashboard/document/[documentId]/edit/page": "app/(home)/dashboard/document/[documentId]/edit/page.js",
-  "/api/[[...route]]/route": "app/api/[[...route]]/route.js"
+  "/(landingPage)/page": "app/(landingPage)/page.js"
 }
