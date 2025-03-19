@@ -1,3 +1,4 @@
 {
+  "/api/auth/[kindeAuth]/route": "app/api/auth/[kindeAuth]/route.js",
   "/(landingPage)/page": "app/(landingPage)/page.js"
 }
